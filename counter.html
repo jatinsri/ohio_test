@@ -2,42 +2,16 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/counter.css">
-
 </head>
-
 <body>
 
-<div class="catcounter">
-	<img id="bill" src="http://www.fillmurray.com/g/600/500">
-	
-	<h3>bill murray is awesome!</h3>
+	<h1>0</h1>
+	<h2>bobcats!</h2>
 
 	<div>
-	<button id="decrease"> - </button>
-	<button id="increase"> + </button>
+	<button> - </button>
+	<button> + </button>
 	</div>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<script type="text/javascript">
-  var picIndex = 500;
-
-  $('button').click(function(){
-  	if($(this).attr('id')=== 'increase')
-  		{picIndex = picIndex +1;
-  		} else {picIndex = picIndex -1;
-  		}
-  		var url = "http://www.fillmurray.com/g/600/" + picIndex;
-
-  		$('#bill').attr("src", url);
-
-  	  });
-
-
-	
-</script>
 
 
 </body>
